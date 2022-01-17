@@ -1,0 +1,74 @@
+*   {
+   margin: 0;
+   padding: 0;
+    }
+
+.header
+    {
+  padding: 40px;
+  width: 1365px;
+  height: 50px;
+  text-align: center;
+  background: #4b270f;
+  size: 100px;
+  color: rgb(238, 167, 202);
+    }
+div h1
+   {
+   font-family: Lucida Sans;
+   font-size: 50px;
+   }
+        
+body
+   {
+    background-image: url("image/bg\ 6.jpg"); 
+    background-size: cover;
+    font-family: Lucida Sans;
+    font-size: 30px;
+   }
+
+h1
+   {  
+   font-family: Lucida Sans;
+   font-size: 40px;
+   color: bisque;
+   }
+
+a href 
+    {
+    padding: 20px;
+    background-color:rgb(139, 78, 28);
+    width: 700px;
+    height: 50px;
+    font-family: Lucida Sans; 
+    font-size: 20px;
+    border-right-style: dotted;
+    }
+    
+a:link, a:visited
+    {
+    background-color: rgb(240, 228, 164);
+    color: rgb(24, 20, 18);
+    width: 20px;
+    height: 30px;
+    font-family: Lucida Sans;
+    font-size: 15px;
+    padding: 30px; 
+    text-align: center;
+    text-decoration: rgb(71, 34, 34);
+    display: ruby-base-container;
+    }
+a:hover, a:active 
+    {
+    background-color:#582925;
+    }
+
+footer 
+    {
+    font-family: Lucida Sans;
+    font-size: 15px;
+    color: rgb(43, 11, 11);
+    text-align: center; 
+    }  
+    
+

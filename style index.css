@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+   {
+   
+    background-image: url("image/bg\ 10.jpg"); 
+    background-size: cover;
+   }
+
+header 
+   {
+    font-family: Lucida Grande;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 223, 223);
+   }
+
+img {
+    border-radius: 40%;
+    width: 250px; 
+    height: 300px;
+    }
+
+
+a href 
+    {
+    padding: 20px;
+    background-color:rgb(139, 78, 28);
+    width: 70px;
+    height: 50px;
+    font-family: Lucida Sans; 
+    font-size: 20px;;
+    }
+
+
+a:link, a:visited 
+    {
+    background-color: rgb(240, 228, 164);
+    color: rgb(24, 20, 18);
+    width: 60px;
+    height: 20px;
+    font-family: Lucida Sans;
+    font-size: 15px;
+    padding: 20px; 
+    text-align: center;
+    text-decoration: maroon;
+    display: flexbox;
+    }
+a:hover, a:active {
+    background-color:#833a35;
+    }
+
+center table, td, tr
+    {  
+      border: 1px solid #b87777;;
+      border-collapse: collapse;
+    }
+
+td, tr p
+    {
+      background-color: #b87777;
+      width: 750px; 
+      height: 5px; 
+      font-family: Lucida Sans;
+      font-size:  15px;
+      padding: 10px;
+    }
+
+.footer 
+    {
+        font-family: Lucida Sans;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        text-align: center; 
+    }
+.footer h4
+    {
+     margin-bottom: 25px;
+     margin-top: 20px;
+     font-weight: 600;
+    }
+
+.fa {
+     padding: 20px;
+     font-size: 30px;
+     width: 50px;
+     text-align: center;
+     text-decoration: none;
+     align-items: center;
+     margin: 5px 2px;
+     border-radius: 20%;
+    }
+      
+      
+.fa:hover 
+    {
+      opacity: 0.2;
+    }
+      
+.fa-instagram 
+    {
+      background: #330808;
+      color: white;
+      align-items: center;
+    }
+    

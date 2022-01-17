@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+body
+   {
+   background-image: url("image/bg\ 8.jpg"); 
+   background-size: cover;
+   }
+
+h1
+   {
+   font-family: Lucida Sans;
+   font-size: 50px;
+   color: rgb(240, 99, 99);
+   }
+
+
+.container 
+   {
+   position: relative;
+   width: 30%;
+   }
+
+center .image 
+   {
+    width: 50%;
+    height: auto;
+   }
+  
+center .overlay 
+   {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #883232;
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+   }
+  
+   
+.container:hover .overlay 
+   {
+    transform: scale(1);
+   }
+  
+
+.text 
+   {
+    color: white;
+    font-family: Lucida Sans;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 5px;
+   }
+
+
+footer 
+   {
+    font-family: Lucida Sans;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+   }  
+  
